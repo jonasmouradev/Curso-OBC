@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Container {
+  background-color: aqua;
+  min-height: 100vh;
+}
+.Item {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  background-color: aqua;
+  font-size: 20px;
+}

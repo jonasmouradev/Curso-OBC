@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício Form</title>
+  </head>
+  <body>
+    <h2>Cadastro da Liga dos Astronautas</h2>
+    <form>
+      <div>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <br />
+      <div>
+        <label for="email">E-Mail</label>
+        <input type="text" id="email" name="email" />
+        <label for="password">- Senha</label>
+        <input type="text" id="password" name="password" />
+      </div>
+      <br />
+      <div>
+        <label for="birth">Data de Nascimento</label>
+        <input type="date" id="birth" name="birth" />
+        <label for="photo">- Foto</label>
+        <input type="file" id="photo" name="photo" />
+      </div>
+      <br />
+      <div>
+        <label for="nationality">Nacionalidade</label>
+        <select id="nationality" name="nationality" />
+        <option value="Russian">Russo(a)</option>
+        <option value="American">Americano(a)</option>
+        <option value="Brazilian">Brasileiro(a)</option>
+      </select>
+
+        - Gênero:
+        <label for="male">Masculino</label>
+        <input type="radio" id="male" name="gender" value="M">
+        <label for="female">Feminino</label>
+        <input type="radio" id="female" name="gender" value="F">
+        </div>
+        <br />
+        <div>
+          Suas principais qualidades:
+          <label for="smart">Inteligência</label>
+          <input type="checkbox" id="smart" name="smart" value="Smart">
+          <label for="resilience">Resiliência</label>
+          <input type="checkbox" id="resilience" name="resilience" value="Resilience">
+          <label for="physical">Preparo Físico</label>
+          <input type="checkbox" id="physical" name="physical" value="Physical">
+        </div>
+        <br />
+        <div>
+          <textarea name="description" id="description" cols="30" rows="10" placeholder="Por que você acha que deve ser contratado?"></textarea>
+        </div>
+        <br>
+        <div>
+          <input type="submit" id="send" name="send" value="Enviar">
+        </div>
+    </form>
+  </body>
+</html>
